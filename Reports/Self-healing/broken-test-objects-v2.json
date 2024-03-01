@@ -1,0 +1,34 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/brodo/Page_Account  Brodo/input_Email_customeremail",
+      "brokenLocator": "//input[@id\u003d\u0027CustomerEmail\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/form/input[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Challenge  ERIGO/a_Erigo Hoodie Baylor Black",
+      "brokenLocator": "//div[@id\u003d\u0027predictive-search-results-list\u0027]/div/div[2]/div/div/div[3]/div/h3/a",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Cancel\u0027])[7]/following::a[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Belanja Online Fashion Lifestyle Gampa_b07c33/div_KAOS ANAK",
+      "brokenLocator": "//main[@id\u003d\u0027maincontent\u0027]/div[2]/div/div[4]/div/div/div/div/div/div/div[2]/a/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027CELANA PANJANG PRIA\u0027])[1]/following::div[3]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Belanja Online Fashion Lifestyle Gampa_b07c33/div_KAOS ANAK_neighbor.png"
+    }
+  ]
+}
